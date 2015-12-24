@@ -3,13 +3,12 @@ import cassette.audiofiles.SoundFile;
 //import processing.sound.*;
 PImage[] img = new PImage[9];
 SoundFile[] music = new SoundFile[9];
-int[] times = {25, 41, 49, 24, 17, 40, 25, 56, 59};
+int[] times = {30, 41, 49, 24, 17, 40, 25, 56, 59};
 /*25, 41, 49, 24, 17, 40, 25, 56, 59*/
 int image_number = 0;
 int psec;
 boolean change = true; 
 void setup(){
-  //size(800, 800);
   size(1920, 1080);
   frameRate(1);
   img[0] = loadImage("MerryChristmas.jpg");
